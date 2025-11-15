@@ -1,8 +1,9 @@
-# Exploraci-n-NetflixDB-en-MySQL-Workbench
+# Exploración NetflixDB 
 
+## Diagrama entidad relación (DER)
 <img width="858" height="572" alt="image" src="https://github.com/user-attachments/assets/58e28b97-6de9-45a4-a568-39ae13a0999c" />
 
-
+## Creación de las tablas e inicialización de la base de datos
 ```sql
 CREATE DATABASE IF NOT EXISTS NetflixDB;
 USE NetflixDB;
@@ -46,7 +47,7 @@ CREATE TABLE IF NOT EXISTS Actuaciones (
     PRIMARY KEY (actor_id, serie_id)
 );
 ```
-
+## Inserción de datos en las tablas de la base de datos
 ```sql
 USE NetflixDB;
 
@@ -305,5 +306,23 @@ INSERT INTO Actuaciones (actor_id, serie_id, personaje) VALUES
 (18, 8, 'Kamille "Cami" OConnell'); -- Gina Carano en una serie de temática similar como The Originals (no exactamente, pero por falta de una mejor opción);
 ```
 
+## Preguntas :
+### 1. ¿Quien es el actor o actriz que ha participado en la mayor cantidad de series?
+```sql
+SELECT ac.actor_id, a.nombre, COUNT(ac.actor_id) AS cantidad_actuaciones
+FROM actores AS a
+INNER JOIN actuaciones AS ac
+ON a.actor_id = ac.actor_id
+GROUP BY ac.actor_id
+ORDER BY cantidad_actuaciones DESC
+LIMIT 5
 
+```
 
+| nombre                 | cantidad_actuaciones |
+|------------------------|-----------------------|
+| Gina Carano            | 2 |
+| Bryan Cranston         | 1 |
+| Millie Bobby Brown     | 1 |
+| Claire Foy             | 1 |
+| Henry Cavill           | 1 |
