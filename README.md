@@ -351,7 +351,7 @@ LIMIT 5
 | Stranger Things   | 8.96087 |
 | The Mandalorian   | 8.91818 |
 
-### 2. ¿Cual es el episodio con la duración más larga?
+### 2. ¿Cual es el episodio con la mayor duración?
 
 ```sql
 
