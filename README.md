@@ -308,7 +308,9 @@ INSERT INTO Actuaciones (actor_id, serie_id, personaje) VALUES
 
 ## Preguntas :
 ### 1. ¿Quien es el actor o actriz que ha participado en la mayor cantidad de series?
+
 ```sql
+
 SELECT ac.actor_id, a.nombre, COUNT(ac.actor_id) AS cantidad_actuaciones
 FROM actores AS a
 INNER JOIN actuaciones AS ac
@@ -326,3 +328,47 @@ LIMIT 5
 | Millie Bobby Brown     | 1 |
 | Claire Foy             | 1 |
 | Henry Cavill           | 1 |
+
+### 2. ¿Cual es la serie con mejor rating promedio segun imdb?
+
+```sql
+
+SELECT s.titulo, AVG(e.rating_imdb) AS Rating_promedio
+FROM series AS s
+LEFT JOIN  episodios AS e
+ON s.serie_id = e.serie_id
+GROUP BY s.titulo
+ORDER BY Rating_promedio DESC
+LIMIT 5
+
+```
+
+| titulo            | Rating_promedio |
+|-------------------|------------------|
+| Arcane            | 9.22727 |
+| Game of Thrones   | 9.16667 |
+| Peaky Blinders    | 9.04545 |
+| Stranger Things   | 8.96087 |
+| The Mandalorian   | 8.91818 |
+
+### 2. ¿Cual es el episodio con la duración más larga?
+
+```sql
+
+SELECT titulo, duracion 
+FROM episodios
+ORDER BY duracion DESC
+LIMIT 5
+
+```
+
+| titulo                 | duracion |
+|------------------------|----------|
+| The Sign of Three      | 93 |
+| A Scandal in Belgravia | 90 |
+| The Empty Hearse       | 90 |
+| The Reichenbach Fall   | 90 |
+| Un estudio en rosa     | 90 |
+
+
+
