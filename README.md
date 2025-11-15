@@ -1,5 +1,8 @@
 # Exploraci-n-NetflixDB-en-MySQL-Workbench
 
+<img width="858" height="572" alt="image" src="https://github.com/user-attachments/assets/58e28b97-6de9-45a4-a568-39ae13a0999c" />
+
+
 ```sql
 CREATE DATABASE IF NOT EXISTS NetflixDB;
 USE NetflixDB;
@@ -302,5 +305,5 @@ INSERT INTO Actuaciones (actor_id, serie_id, personaje) VALUES
 (18, 8, 'Kamille "Cami" OConnell'); -- Gina Carano en una serie de temática similar como The Originals (no exactamente, pero por falta de una mejor opción);
 ```
 
-<img width="858" height="572" alt="image" src="https://github.com/user-attachments/assets/2c888cd2-f44e-4e9d-bf54-dbc3a1d17ee7" />
+
 
