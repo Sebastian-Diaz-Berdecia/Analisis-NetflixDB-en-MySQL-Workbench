@@ -322,7 +322,7 @@ LIMIT 5
 ```
 
 | nombre                 | cantidad_actuaciones |
-|------------------------|-----------------------|
+|:------------------------:|:-----------------------:|
 | Gina Carano            | 2 |
 | Bryan Cranston         | 1 |
 | Millie Bobby Brown     | 1 |
@@ -344,7 +344,7 @@ LIMIT 5
 ```
 
 | titulo            | Rating_promedio |
-|-------------------|------------------|
+|:-------------------:|------------------:|
 | Arcane            | 9.22727 |
 | Game of Thrones   | 9.16667 |
 | Peaky Blinders    | 9.04545 |
@@ -363,12 +363,10 @@ LIMIT 5
 ```
 
 | titulo                 | duracion |
-|------------------------|----------|
+|:----------------------:|:--------:|
 | The Sign of Three      | 93 |
 | A Scandal in Belgravia | 90 |
 | The Empty Hearse       | 90 |
 | The Reichenbach Fall   | 90 |
 | Un estudio en rosa     | 90 |
-
-
 
