@@ -1,9 +1,20 @@
 # Exploración NetflixDB 
 
-## Diagrama entidad relación (DER)
+El proposito de este proyecto es explicar de forma breve el proceso que se debe realizar para la creación e inicialización de la base de datos NetflixDB en MySQL Workbench, asi como también responder algunas preguntas sobre su contenido.
+
+---
+
+
+## 🔑 Diagrama entidad relación (DER)
+
+NetflixDB es una base de datos que consta de cuatro tablas: _series_, _actuaciones_, _actores_ y _episodios_ en donde se alamacena informacion sobre los episodios y actores de algunas series disponibles en el servicio de streaming de Neflix. A continuacion se muestra su diagrama entidad relación.
+
 <img width="858" height="572" alt="image" src="https://github.com/user-attachments/assets/58e28b97-6de9-45a4-a568-39ae13a0999c" />
 
-## Creación de las tablas e inicialización de la base de datos
+## 🛠 Creación de las tablas e inicialización de la base de datos
+
+
+
 ```sql
 CREATE DATABASE IF NOT EXISTS NetflixDB;
 USE NetflixDB;
@@ -47,7 +58,7 @@ CREATE TABLE IF NOT EXISTS Actuaciones (
     PRIMARY KEY (actor_id, serie_id)
 );
 ```
-## Inserción de datos en las tablas de la base de datos
+## 📄 Inserción de datos en las tablas de la base de datos
 ```sql
 USE NetflixDB;
 
@@ -369,4 +380,6 @@ LIMIT 5
 | The Empty Hearse       | 90 |
 | The Reichenbach Fall   | 90 |
 | Un estudio en rosa     | 90 |
+
+#
 
