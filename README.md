@@ -13,7 +13,8 @@ NetflixDB es una base de datos que consta de cuatro tablas: _series_, _actuacion
 
 ## 🛠 Creación de las tablas e inicialización de la base de datos
 
-
+*  "CREATE DATABASE IF NOT EXISTS" &rarr; crea e inicializa la base de datos.
+*  "CREATE TABLE IF NOT EXISTS" &rarr; crea cada una de las tablas y sus columnas.
 
 ```sql
 CREATE DATABASE IF NOT EXISTS NetflixDB;
@@ -59,6 +60,10 @@ CREATE TABLE IF NOT EXISTS Actuaciones (
 );
 ```
 ## 📄 Inserción de datos en las tablas de la base de datos
+
+* "USE" &rarr; nos permite designar en que base de datos se hara la inserción de datos.
+* "INSERT" INTO &rarr; realiza la inserción de los datos en las tablas designadas.
+
 ```sql
 USE NetflixDB;
 
@@ -317,6 +322,7 @@ INSERT INTO Actuaciones (actor_id, serie_id, personaje) VALUES
 (18, 8, 'Kamille "Cami" OConnell'); -- Gina Carano en una serie de temática similar como The Originals (no exactamente, pero por falta de una mejor opción);
 ```
 
+
 ## Preguntas :
 ### 1. ¿Quien es el actor o actriz que ha participado en la mayor cantidad de series?
 
@@ -340,6 +346,8 @@ LIMIT 5
 | Claire Foy             | 1 |
 | Henry Cavill           | 1 |
 
+R// Gina Carrano con 2 actuaciones.
+
 ### 2. ¿Cual es la serie con mejor rating promedio segun imdb?
 
 ```sql
@@ -362,7 +370,9 @@ LIMIT 5
 | Stranger Things   | 8.96087 |
 | The Mandalorian   | 8.91818 |
 
-### 2. ¿Cual es el episodio con la mayor duración?
+R// Arcane con un rating promedio de 9.227.
+
+### 3. ¿Cual es el episodio con la mayor duración?
 
 ```sql
 
@@ -380,6 +390,8 @@ LIMIT 5
 | The Empty Hearse       | 90 |
 | The Reichenbach Fall   | 90 |
 | Un estudio en rosa     | 90 |
+
+R// The Sign of Three con una duración de 93 min.
 
 #
 
