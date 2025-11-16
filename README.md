@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS Actuaciones (
 ## 📄 Inserción de datos en las tablas de la base de datos
 En segundo lugar, se insertan los datos dentro de cada una de las tablas de nuestra base de datos:
 * "USE" &rarr; nos permite designar en que base de datos se hara la inserción de datos.
-* "INSERT" INTO &rarr; realiza la inserción de los datos en las tablas designadas.
+* "INSERT INTO" &rarr; realiza la inserción de los datos en las tablas designadas.
 
 ```sql
 USE NetflixDB;
