@@ -3,7 +3,11 @@
 El proposito de este proyecto es explicar de forma breve el proceso que se debe realizar para la creación e inicialización de la base de datos NetflixDB en MySQL Workbench, asi como también responder algunas preguntas sobre su contenido.
 
 ---
-
+## Índice 
+* #### [Diagrama entidad relación.]
+* #### [Creación de las tablas e inicialización de la base de datos.]
+* #### [Inserción de datos en las tablas de la base de datos.]
+* #### [Preguntas.]
 
 ## 🔑 Diagrama entidad relación (DER)
 
@@ -323,7 +327,7 @@ INSERT INTO Actuaciones (actor_id, serie_id, personaje) VALUES
 ```
 
 
-## Preguntas :
+## Preguntas:
 ### 1. ¿Quien es el actor o actriz que ha participado en la mayor cantidad de series?
 
 ```sql
