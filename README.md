@@ -17,7 +17,7 @@ NetflixDB es una base de datos que consta de cuatro tablas: _series_, _actuacion
 <img width="858" height="572" alt="image" src="https://github.com/user-attachments/assets/58e28b97-6de9-45a4-a568-39ae13a0999c" />
 
 ## 🛠 Creación de las tablas e inicialización de la base de datos
-
+El primer paso y mas importante es crear la estructura o esquema de la base de datos, es decir, las tablas y sus respectivas columnas:
 *  "CREATE DATABASE IF NOT EXISTS" &rarr; crea e inicializa la base de datos.
 *  "CREATE TABLE IF NOT EXISTS" &rarr; crea cada una de las tablas y sus columnas.
 
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS Actuaciones (
 );
 ```
 ## 📄 Inserción de datos en las tablas de la base de datos
-
+En segundo lugar, se insertan los datos dentro de cada una de las tablas de nuestra base de datos:
 * "USE" &rarr; nos permite designar en que base de datos se hara la inserción de datos.
 * "INSERT" INTO &rarr; realiza la inserción de los datos en las tablas designadas.
 
