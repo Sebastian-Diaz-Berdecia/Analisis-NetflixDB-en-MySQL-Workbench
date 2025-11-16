@@ -4,7 +4,7 @@ El proposito de este proyecto es explicar de forma breve el proceso que se debe 
 
 ---
 ## Índice 
-* #### [Diagrama entidad relación.]
+* #### [Diagrama entidad relación.](https://github.com/Sebastian-Diaz-Berdecia/Analisis-NetflixDB-en-MySQL-Workbench/tree/main#-diagrama-entidad-relaci%C3%B3n-der)
 * #### [Creación de las tablas e inicialización de la base de datos.]
 * #### [Inserción de datos en las tablas de la base de datos.]
 * #### [Preguntas.]
