@@ -2,12 +2,13 @@
 
 El proposito de este proyecto es explicar de forma breve el proceso que se debe realizar para la creación e inicialización de la base de datos NetflixDB en MySQL Workbench, asi como también responder algunas preguntas sobre su contenido.
 
----
 ## Índice 
 * #### [Diagrama entidad relación.](https://github.com/Sebastian-Diaz-Berdecia/Analisis-NetflixDB-en-MySQL-Workbench/tree/main#-diagrama-entidad-relaci%C3%B3n-der)
 * #### [Creación de las tablas e inicialización de la base de datos.](https://github.com/Sebastian-Diaz-Berdecia/Analisis-NetflixDB-en-MySQL-Workbench/tree/main#-creaci%C3%B3n-de-las-tablas-e-inicializaci%C3%B3n-de-la-base-de-datos)
 * #### [Inserción de datos en las tablas de la base de datos.](https://github.com/Sebastian-Diaz-Berdecia/Analisis-NetflixDB-en-MySQL-Workbench/tree/main#-inserci%C3%B3n-de-datos-en-las-tablas-de-la-base-de-datos)
 * #### [Preguntas.](https://github.com/Sebastian-Diaz-Berdecia/Analisis-NetflixDB-en-MySQL-Workbench#preguntas-1)
+
+---
 
 ## 🔑 Diagrama entidad relación (DER)
 
