@@ -353,7 +353,9 @@ LIMIT 5
 | Claire Foy             | 1 |
 | Henry Cavill           | 1 |
 
-R// Gina Carrano con 2 actuaciones.
+* R// Gina Carrano con 2 actuaciones.
+
+#
 
 ### 2. ¿Cual es la serie con mejor rating promedio segun imdb?
 
@@ -377,7 +379,9 @@ LIMIT 5
 | Stranger Things   | 8.96087 |
 | The Mandalorian   | 8.91818 |
 
-R// Arcane con un rating promedio de 9.227.
+* R// Arcane con un rating promedio de 9.227.
+
+#
 
 ### 3. ¿Cual es el episodio con la mayor duración?
 
@@ -398,7 +402,7 @@ LIMIT 5
 | The Reichenbach Fall   | 90 |
 | Un estudio en rosa     | 90 |
 
-R// The Sign of Three con una duración de 93 min.
+* R// The Sign of Three con una duración de 93 min.
 
 ---
 
